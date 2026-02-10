@@ -1,7 +1,8 @@
 # 🌡️ Simulador de Sensores IoT con Docker
 
 ## 👥 Equipo
-- [Tu nombre]
+- Jon Ochoa
+- Oier Martinez
 
 ## 📖 Descripción
 Sistema de captura de datos IoT que simula un sensor ambiental enviando mediciones en tiempo real a una base de datos InfluxDB, con visualización mediante Grafana.
