@@ -24,7 +24,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "cfcu6o3ryjl6oc"
+        "uid": "cfdn16uf9ai9sf"
       },
       "fieldConfig": {
         "defaults": {
@@ -114,7 +114,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "cfcu6o3ryjl6oc"
+        "uid": "cfdn16uf9ai9sf"
       },
       "fieldConfig": {
         "defaults": {
@@ -178,7 +178,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "cfcu6o3ryjl6oc"
+        "uid": "cfdn16uf9ai9sf"
       },
       "fieldConfig": {
         "defaults": {
@@ -291,5 +291,5 @@
   "timezone": "browser",
   "title": "Panel Sensor",
   "uid": "adz4g77",
-  "version": 2
+  "version": 1
 }
