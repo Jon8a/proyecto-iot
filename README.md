@@ -380,7 +380,7 @@ Este comando:
 | InfluxDB | http://localhost:8086 | admin | admin123456 |
 | Grafana | http://localhost:3000 | admin | admin |
 
-** Al entrar en el Dashboard de Grafana, refrescar cada panel para que carguen los datos**
+**Al entrar en el Dashboard de Grafana, refrescar cada panel para que carguen los datos**
 
 **4. Verificar funcionamiento**
 
