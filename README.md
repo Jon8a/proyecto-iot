@@ -99,7 +99,7 @@ mkdir -p sensor grafana/dashboards grafana/provisioning/dashboards grafana/provi
 **1.3. Inicializar repositorio Git**
 ```bash
 git init
-git remote add origin [URL_DEL_REPOSITORIO]
+git remote add origin https://github.com/Jon8a/proyecto-iot
 ```
 
 ---
@@ -356,7 +356,7 @@ docker logs influxdb_iot -f
 
 **1. Clonar el repositorio**
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/Jon8a/proyecto-iot
 cd proyecto-iot-docker
 ```
 
