@@ -5,9 +5,7 @@ from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 import os
 
-# ============================================
 # CONFIGURACIÓN
-# ============================================
 INFLUXDB_URL = os.getenv('INFLUXDB_URL', 'http://influxdb:8086')
 INFLUXDB_TOKEN = os.getenv('INFLUXDB_TOKEN')
 INFLUXDB_ORG = os.getenv('INFLUXDB_ORG', 'mi_empresa')
@@ -17,9 +15,7 @@ INFLUXDB_BUCKET = os.getenv('INFLUXDB_BUCKET', 'sensores')
 print("⏳ Esperando a que InfluxDB esté listo...")
 time.sleep(10)
 
-# ============================================
 # CONEXIÓN A INFLUXDB
-# ============================================
 try:
     client = InfluxDBClient(url=INFLUXDB_URL, token=INFLUXDB_TOKEN, org=INFLUXDB_ORG)
     write_api = client.write_api(write_options=SYNCHRONOUS)
@@ -28,9 +24,7 @@ except Exception as e:
     print(f"❌ Error conectando con InfluxDB: {e}")
     exit(1)
 
-# ============================================
 # SIMULACIÓN DE SENSORES
-# ============================================
 print("🌡️  ===================================")
 print("🌡️  SIMULADOR DE SENSORES IoT INICIADO")
 print("🌡️  ===================================")

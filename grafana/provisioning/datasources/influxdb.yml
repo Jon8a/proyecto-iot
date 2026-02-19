@@ -4,6 +4,7 @@ datasources:
   - name: InfluxDB
     type: influxdb
     access: proxy
+    uid: influxdb-iot  # ← UID FIJO - siempre el mismo
     url: http://influxdb:8086
     jsonData:
       version: Flux
@@ -12,4 +13,5 @@ datasources:
       tlsSkipVerify: true
     secureJsonData:
       token: mi-token-super-secreto-12345
-    editable: true
+    isDefault: true
+    editable: false
